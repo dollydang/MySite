@@ -6,7 +6,7 @@ A modern, interactive portfolio website showcasing my experience as a Project & 
 
 ## 🌐 Live Website
 
-This portfolio is ready to be deployed to: `https://dollydang.github.io/[repo-name]`
+This portfolio is ready to be deployed to: `https://dollydang.github.io/MySite`
 
 ## 📋 Features
 
