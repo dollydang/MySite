@@ -6,7 +6,7 @@ A modern, interactive portfolio website showcasing my experience as a Project & 
 
 ## 🌐 Live Website
 
-This portfolio is ready to be deployed to: `https://dollydang.github.io/MySite`
+This portfolio is ready to be deployed to: `https://dollydang.github.io/[repo-name]`
 
 ## 📋 Features
 
@@ -146,6 +146,13 @@ The website is fully responsive with breakpoints at:
 ✅ Print-friendly styles
 
 ## 🎯 Featured Projects
+
+### Sprint Portfolio Analytics Dashboard (Live Demo)
+**Subject Matter Expert & Strategic Lead** for an executive analytics dashboard analyzing 6 months of Agile sprint data (12 sprints, 355+ stories, 28 initiatives). Leveraged GenAI tools to generate strategic insights and analytics recommendations. Defined comprehensive requirements for Impact/Effort matrix prioritization, ROI scoring models, sprint health metrics, and predictive analytics for capacity planning. Translated complex operational data into actionable business intelligence.
+
+**🔗 Live Demo**: [Sprint Portfolio Analytics](https://print-portfolio-analytics-dolly-dang.streamlit.app/)
+
+**Key Contributions**: SME Leadership, GenAI-Enhanced Analytics, Strategic Planning, Data-Driven Decision Framework
 
 ### Spotlight Launch
 Led development of Pinterest's premium advertising placement that surpassed $1B in revenue within a quarter.
