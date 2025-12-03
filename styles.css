@@ -605,13 +605,14 @@ body {
 }
 
 .project-card {
-    background: white;
+    background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
     border-radius: 20px;
     padding: 2rem;
     box-shadow: var(--shadow-md);
     transition: var(--transition);
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .project-card:hover {
