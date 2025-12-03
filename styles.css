@@ -1363,11 +1363,20 @@ body {
 .enterprise-card {
     position: relative;
     border: 2px solid #1e88a8;
-    background: white;
+    background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+    color: white;
+
 }
 
 .enterprise-card:hover {
     border-color: transparent;
+}
+
+.enterprise-card h3,
+.enterprise-card p,
+.enterprise-card .project-description,
+.enterprise-card .highlight-item span {
+    color: white !important;
 }
 
 .project-badge {
