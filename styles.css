@@ -2,10 +2,10 @@
    CSS Variables & Reset
    =========================== */
 :root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
-    --accent-color: #f093fb;
-    --success-color: #4ade80;
+    --primary-color: #3b82f6;
+    --secondary-color: #1d4ed8;
+    --accent-color: #60a5fa;
+    --success-color: #0c7cd5;
     --pinterest-red: #E60023;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
