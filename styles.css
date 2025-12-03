@@ -1351,12 +1351,6 @@ body {
     margin-top: 1.5rem;
 } 
 
-.enterprise-card h3,
-.enterprise-card p,
-.enterprise-card .project-description {
-    color: white;
-}
-
 /* ===========================
    Enterprise Project Cards
    =========================== */
