@@ -1362,8 +1362,8 @@ body {
    =========================== */
 .enterprise-card {
     position: relative;
-    border: 2px solid transparent;
-    background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+    border: 2px solid #1e88a8;
+    background: white;
 }
 
 .enterprise-card:hover {
