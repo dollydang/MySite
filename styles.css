@@ -2,25 +2,25 @@
    CSS Variables & Reset
    =========================== */
 :root {
-    --primary-color: #3b82f6;
-    --secondary-color: #1d4ed8;
-    --accent-color: #60a5fa;
+    --primary-color: #1e88a8;
+    --secondary-color: #5eb3d6;
+    --accent-color: #7ec8e3;
     --success-color: #0c7cd5;
-    --pinterest-red: #3b82f6;
-    --text-primary: #1d4ed8;
+    --pinterest-red: #1e88a8;
+    --text-primary: #0d5f7a;
     --text-secondary: #6b7280;
     --text-light: #9ca3af;
     --bg-primary: #ffffff;
     --bg-secondary: #f9fafb;
     --bg-dark: #111827;
-    --gradient-1: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
-    --gradient-2: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
-    --gradient-3: linear-gradient(135deg, #1e40af 0%, #0c7cd5 100%);
-    --gradient-pinterest: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    --gradient-1: linear-gradient(135deg, #1e88a8 0%, #5eb3d6 100%);
+    --gradient-2: linear-gradient(135deg, #5eb3d6 0%, #7ec8e3 100%);
+    --gradient-3: linear-gradient(135deg, #0d5f7a 0%, #1e88a8 100%);
+    --gradient-pinterest: linear-gradient(135deg, #1e88a8 0%, #5eb3d6 100%);
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    --shadow-xl: 0 20px 25px -5px rgba(59, 130, 246, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(30, 136, 168, 0.3);
     --transition: all 0.3s ease;
 }
 
@@ -278,8 +278,8 @@ body {
     width: 350px;
     height: 350px;
     border-radius: 30px;
-    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
-    box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.3);
+    background: linear-gradient(135deg, #1e88a8 0%, #5eb3d6 100%);
+    box-shadow: 0 20px 25px -5px rgba(30, 136, 168, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
