@@ -3,8 +3,9 @@
 // ===========================
 const typingText = document.querySelector('.typing-text');
 const phrases = [
+    'Order Management Specialist',
+    'Sales and Revenue Operations Specialist',
     'Project Manager',
-    'Operations Specialist',
     'Process Automation Expert',
     'Cross-functional Leader',
     'Product Launch Strategist'
