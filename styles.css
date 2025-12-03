@@ -605,14 +605,13 @@ body {
 }
 
 .project-card {
-    background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+    background: white;
     border-radius: 20px;
     padding: 2rem;
     box-shadow: var(--shadow-md);
     transition: var(--transition);
     display: flex;
     flex-direction: column;
-    color: white;
 }
 
 .project-card:hover {
@@ -1350,6 +1349,12 @@ body {
     color: var(--text-secondary);
     line-height: 1.7;
     margin-top: 1.5rem;
+} 
+
+.enterprise-card h3,
+.enterprise-card p,
+.enterprise-card .project-description {
+    color: white;
 }
 
 /* ===========================
@@ -1358,8 +1363,7 @@ body {
 .enterprise-card {
     position: relative;
     border: 2px solid transparent;
-    background: linear-gradient(white, white) padding-box,
-                var(--gradient-1) border-box;
+    background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
 }
 
 .enterprise-card:hover {
