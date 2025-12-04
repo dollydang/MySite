@@ -1397,6 +1397,11 @@ body {
     border: 1px solid rgba(118, 75, 162, 0.2);
 }
 
+.enterprise-card .project-badge {
+    background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%) !important;
+    color: white !important;
+}
+
 .case-study-link {
     display: inline-flex;
     align-items: center;
