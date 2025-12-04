@@ -1375,7 +1375,7 @@ body {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #991B1B;
+    color: white;
     border: 1px solid rgba(118, 75, 162, 0.2);
 
 .enterprise-card:hover {
@@ -1393,7 +1393,7 @@ body {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #991B1B;
+    color: white;
     border: 1px solid rgba(118, 75, 162, 0.2);
 }
 
