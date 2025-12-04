@@ -1387,7 +1387,7 @@ body {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-    background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+    background: linear-gradient(135deg, #6b7280 0%, #9ca3af 100%);
     backdrop-filter: blur(10px);
     padding: 0.5rem 1rem;
     border-radius: 20px;
