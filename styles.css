@@ -595,14 +595,13 @@ body {
 }
 
 /* ===========================
-   Projects Section - FIXED
+   Projects Section - FIXED TO MATCH CONTACT CARDS
    =========================== */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     margin-bottom: 3rem;
-    align-items: stretch; /* This ensures equal height */
 }
 
 .project-card {
@@ -611,11 +610,10 @@ body {
     padding: 2rem;
     box-shadow: var(--shadow-md);
     transition: var(--transition);
-    display: flex;
-    flex-direction: column;
-    height: auto; /* Let content determine height */
+    display: block;
 }
 
+/* FIXED: Project card hover now matches contact card hover - simple upward movement only */
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-xl);
@@ -632,12 +630,10 @@ body {
     font-size: 2.5rem;
     color: white;
     margin-bottom: 1.5rem;
-    flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
 .project-header {
     margin-bottom: 1rem;
-    flex-shrink: 0; /* Prevent header from shrinking */
 }
 
 .project-header h3 {
@@ -655,12 +651,11 @@ body {
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 1.5rem;
-    flex-grow: 1; /* Allow description to fill available space */
+    flex-grow: 1;
 }
 
 .project-highlights {
     margin-bottom: 1.5rem;
-    flex-shrink: 0; /* Prevent highlights from shrinking */
 }
 
 .highlight-item {
@@ -673,7 +668,6 @@ body {
 .highlight-item i {
     color: var(--success-color);
     margin-top: 0.25rem;
-    flex-shrink: 0;
 }
 
 .highlight-item span {
@@ -686,7 +680,6 @@ body {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
-    flex-shrink: 0; /* Prevent tags from shrinking */
 }
 
 .tag {
@@ -705,7 +698,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     transition: var(--transition);
-    margin-top: auto; /* Push link to bottom */
 }
 
 .project-link:hover {
@@ -851,6 +843,7 @@ body {
     display: block;
 }
 
+/* Contact card hover - this is the behavior we want for project cards too */
 .contact-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-xl);
@@ -1032,6 +1025,10 @@ body {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
+  /*  .skills-grid {
+        grid-template-columns: 1fr;
+    } */
 
     .contact-grid {
         grid-template-columns: 1fr;
@@ -1677,7 +1674,7 @@ button:focus-visible {
     border-radius: 4px;
 }
 
-/* Enhanced project card interactions */
+/* Enhanced project card interactions - REMOVED 3D EFFECT */
 .project-card {
     position: relative;
     overflow: hidden;
