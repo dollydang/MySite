@@ -7,8 +7,8 @@ const phrases = [
     'Project Manager',
     'Process Automation Expert',
     'Cross-functional Leader',
-    'Product Launch Strategist'
-    'Sales and Revenue Operations Specialist',
+    'Product Launch Strategist',
+    'Sales and Revenue Operations Specialist'
 ];
 
 let phraseIndex = 0;
