@@ -595,13 +595,14 @@ body {
 }
 
 /* ===========================
-   Projects Section
+   Projects Section - FIXED
    =========================== */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     margin-bottom: 3rem;
+    align-items: stretch; /* This ensures equal height */
 }
 
 .project-card {
@@ -610,8 +611,9 @@ body {
     padding: 2rem;
     box-shadow: var(--shadow-md);
     transition: var(--transition);
-    display: block;
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Let content determine height */
 }
 
 .project-card:hover {
@@ -630,10 +632,12 @@ body {
     font-size: 2.5rem;
     color: white;
     margin-bottom: 1.5rem;
+    flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
 .project-header {
     margin-bottom: 1rem;
+    flex-shrink: 0; /* Prevent header from shrinking */
 }
 
 .project-header h3 {
@@ -651,11 +655,12 @@ body {
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 1.5rem;
-    flex-grow: 1;
+    flex-grow: 1; /* Allow description to fill available space */
 }
 
 .project-highlights {
     margin-bottom: 1.5rem;
+    flex-shrink: 0; /* Prevent highlights from shrinking */
 }
 
 .highlight-item {
@@ -668,6 +673,7 @@ body {
 .highlight-item i {
     color: var(--success-color);
     margin-top: 0.25rem;
+    flex-shrink: 0;
 }
 
 .highlight-item span {
@@ -680,6 +686,7 @@ body {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
+    flex-shrink: 0; /* Prevent tags from shrinking */
 }
 
 .tag {
@@ -698,6 +705,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     transition: var(--transition);
+    margin-top: auto; /* Push link to bottom */
 }
 
 .project-link:hover {
@@ -1024,10 +1032,6 @@ body {
     .projects-grid {
         grid-template-columns: 1fr;
     }
-
-  /*  .skills-grid {
-        grid-template-columns: 1fr;
-    } */
 
     .contact-grid {
         grid-template-columns: 1fr;
@@ -1377,24 +1381,6 @@ body {
     font-weight: 600;
     color: white;
     border: 1px solid rgba(209, 213, 219, 0.5);
-
-.enterprise-card:hover {
-    border-color: transparent;
-}
-
-
-.project-badge {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    background: #94a3b8;
-    backdrop-filter: blur(10px);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: white;
-    border: 1px solid rgba(209, 213, 219, 0.5);
 }
 
 .case-study-link {
@@ -1696,21 +1682,6 @@ button:focus-visible {
     position: relative;
     overflow: hidden;
 }
-
-/* .project-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
-    transition: left 0.5s ease;
-} 
-
-.project-card:hover::before {
-    left: 100%;
-} */
 
 /* Pinterest badge styling for enterprise cards */
 .project-badge {
