@@ -226,27 +226,11 @@ document.querySelectorAll('.skill-tag').forEach(tag => {
 });
 
 // ===========================
-// Project Cards Tilt Effect
+// Project Cards Hover Effect - REMOVED 3D TILT
+// Cards now behave like contact cards with simple upward movement
 // ===========================
-document.querySelectorAll('.project-card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-
-        const centerX = rect.width / 2;
-        const centerY = rect.height / 2;
-
-        const rotateX = (y - centerY) / 20;
-        const rotateY = (centerX - x) / 20;
-
-        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
-    });
-
-    card.addEventListener('mouseleave', () => {
-        card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
-    });
-});
+// REMOVED: 3D tilt effect code that was previously here
+// The CSS hover effect (translateY) is sufficient and matches contact cards
 
 // ===========================
 // Timeline Animation
