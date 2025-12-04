@@ -4,11 +4,11 @@
 const typingText = document.querySelector('.typing-text');
 const phrases = [
     'Order Management Specialist',
-    'Sales and Revenue Operations Specialist',
     'Project Manager',
     'Process Automation Expert',
     'Cross-functional Leader',
     'Product Launch Strategist'
+    'Sales and Revenue Operations Specialist',
 ];
 
 let phraseIndex = 0;
