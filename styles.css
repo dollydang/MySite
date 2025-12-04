@@ -442,7 +442,7 @@ body {
 }
 
 .skill-category:hover {
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     box-shadow: var(--shadow-lg);
 }
 
@@ -615,7 +615,7 @@ body {
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
+    /* transform: translateY(-10px);*/
     box-shadow: var(--shadow-xl);
 }
 
