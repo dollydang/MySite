@@ -1697,7 +1697,7 @@ button:focus-visible {
     overflow: hidden;
 }
 
-.project-card::before {
+/* .project-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1706,11 +1706,11 @@ button:focus-visible {
     height: 100%;
     background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
     transition: left 0.5s ease;
-}
+} 
 
 .project-card:hover::before {
     left: 100%;
-}
+} */
 
 /* Pinterest badge styling for enterprise cards */
 .project-badge {
