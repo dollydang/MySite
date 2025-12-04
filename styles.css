@@ -434,10 +434,10 @@ body {
 }
 
 .skill-category {
-    background: white;
+    background: #f0f9ff;
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 4px 6px rgba(30, 136, 168, 0.1);
     transition: var(--transition);
 }
 
